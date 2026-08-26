@@ -1,8 +1,8 @@
 cask "lukotta@beta" do
-  version "1.19.3"
-  sha256 "8f2b65426c3895a2a2e9607d5ee521e340792899d8be84ff8b4193f86bc58d12"
+  version "1.21.0-beta.1"
+  sha256 "b4c29b510f342e3c44dab086dc9f586fbc97f8744d23322b131e96f7ae93e97a"
 
-  url "https://github.com/clementrahula/lukotta/releases/download/v#{version}-beta/Lukotta-Beta.dmg",
+  url "https://github.com/clementrahula/lukotta/releases/download/v#{version}/Lukotta-Beta.dmg",
       verified: "github.com/clementrahula/lukotta/"
   name "Lukotta Beta"
   desc "Opens BitLocker, LUKS and NTFS drives and disk images in Finder"
