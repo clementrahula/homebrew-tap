@@ -34,7 +34,12 @@ install as damage and putting an older one back over it.
 brew uninstall --cask clementrahula/tap/lukotta
 ```
 
-That stops the background daemon and removes the app. It asks for no password.
+That stops the background daemon and removes the app.
+
+It asks for an administrator password if the background daemon was ever set up.
+Stopping a daemon that runs as root needs root, and Homebrew asks the system for
+it. Where the daemon was never set up, there is nothing to stop and nothing is
+asked.
 
 The daemon leaves two files under `/Library` that belong to root, along with
 this Mac's own settings and caches. Those go with:
