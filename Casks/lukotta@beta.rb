@@ -1,6 +1,6 @@
 cask "lukotta@beta" do
-  version "1.22.0-beta.8"
-  sha256 "faa2fb2e7ae846d1fb78c7ca3acf6fb6dcc717137b10f15c45422a8c7b164988"
+  version "1.22.0-beta.9"
+  sha256 "16b9c02adb8de9713b7be2132d36fc4372962e55f9580f4f062d5dca98f0204f"
 
   url "https://github.com/clementrahula/lukotta/releases/download/v#{version}/Lukotta-Beta.dmg",
       verified: "github.com/clementrahula/lukotta/"
