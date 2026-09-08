@@ -2,8 +2,10 @@
 
 <!-- covers: none -->
 
-The role itself is shared: `~/.claude/agents/implementer.md`, from the workflow repository.
-This file is the part that is only true here, and it wins where the two disagree.
+The role itself is shared and lives outside this repository, at `~/.claude/agents/implementer.md`.
+If you have cloned this project that file will not be there, and nothing here depends
+on it: what follows is a description of THIS repository's commands, paths and hazards,
+which is useful on its own. Where both exist, this file wins.
 
 There is no gate in this repository and no CI. `brew audit --cask` and `brew install --cask` against the local file are what actually check a change, and they must be run.
 
