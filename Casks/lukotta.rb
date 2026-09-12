@@ -1,6 +1,6 @@
 cask "lukotta" do
-  version "1.22.19"
-  sha256 "d9a9c3016bbcc9b0255850647aa871056649dae61412225029278929b6f761cc"
+  version "1.22.20"
+  sha256 "a182cfb013eefeba538bcb488e8f04e183eed8376afa8c4450e45331e9d21002"
 
   url "https://github.com/clementrahula/lukotta/releases/download/v#{version}/Lukotta.dmg",
       verified: "github.com/clementrahula/lukotta/"
